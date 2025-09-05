@@ -80,17 +80,23 @@ img {
     width: 120px;
 }
 
-.secondpage {
+.secondsection {
     text-align: center;
     justify-items: center;
-    height: 450px;
+    height: 480px;
 }
 
-.secondpage .title {
+.secondsection .title {
     font-size: 38px;
     color: #1f2937;
     font-weight: 900;
     padding: 25px;
+}
+
+.info .title {
+    font-size: 22px;
+    padding: 5px;
+    font-weight: 600;
 }
 
 .fourcards {
@@ -103,7 +109,7 @@ img {
     width: 180px;
     height: 180px;
     border-radius: 5px;
-    border: 1px solid #3882f6;
+    border: 1px solid darkblue;
 }
 
 .fourcards .text {
@@ -112,4 +118,89 @@ img {
     color: gray;
 }
 
+.quotesection {
+    background-color: lightgray;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
+.quote {
+    align-self: flex-end;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    margin-right: 90px;
+    width: 800px;
+    font-style: italic;
+    margin-bottom: 15px;
+    /* border: 3px solid red; */
+}
+
+.quotation {
+    align-self: flex-end;
+    margin-right: 90px;
+    font-weight: 600;
+}
+
+.ctasection {
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.modal {
+    background-color: #3882f6;
+    height: 120px;
+    width: 900px;
+    border-radius: 12px;
+    display: flex;
+}
+
+.ctasection .content {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 90px;
+    /* border: 1px solid red; */
+}
+
+.ctasection .title {
+    align-self: flex-start;
+    font-size: 25px;
+    font-weight: 700;
+    /* border: 1px solid red; */
+}
+
+.ctasection .text {
+    /* border: 1px solid red; */
+    color: lightgrey;
+    font-weight: 300;
+    align-self: flex-start;
+}
+
+.ctasection button {
+    border: 2px solid white;
+    align-self: center;
+    margin-left: 150px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 30px;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.footer {
+    height: 85px;
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
